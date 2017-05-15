@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AquaBot</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_menu__graph">MainMenu_GraphActivity</string>
+    <string name="str_graph_title">Charts</string>
+    <string name="str_switch_title">Switches</string>
+    <string name="lbl_cbox_temp">Temperature</string>
+    <string name="lbl_cbox_pH">pH</string>
+    <string name="lbl_cbox_sal">Salinity</string>
+    <string name="title_activity_main_menu__switch">MainMenu_SwitchActivity</string>
+</resources>

@@ -1,0 +1,104 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lbl_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="20sp"
+        android:text="@string/str_switch_title"
+        android:textSize="20sp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation = "vertical"
+            android:padding = "10sp">
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:fontFamily="sans-serif"
+                android:text="Chiller "
+                android:textSize="15sp"/>
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:fontFamily="sans-serif"
+                android:text="Dosing Machine "
+                android:textSize="15sp"
+                />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:fontFamily="sans-serif"
+                android:text="Auto-top off "
+                android:textSize="15sp"
+                />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:fontFamily="sans-serif"
+                android:text="Feeder"
+                android:textSize="15sp"
+                />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:fontFamily="sans-serif"
+                android:text="Camera Viewer"
+                android:textSize="15sp"
+                />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:fontFamily="sans-serif"
+                android:text="Fan"
+                android:textSize="15sp"
+                />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:fontFamily="sans-serif"
+                android:text="Auto-scrubber"
+                android:textSize="15sp"
+                />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:fontFamily="sans-serif"
+                android:text="LED Lights"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

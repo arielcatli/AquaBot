@@ -1,0 +1,109 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#38618C">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="191dp"
+        android:layout_height="139dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/logo_main_menu_v1"/>
+
+
+    <LinearLayout
+        android:id="@+id/main_menu_row1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/main_menu_graph"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10sp"
+            android:layout_marginTop="57dp"
+            android:layout_weight="0.10"
+            android:background="@null"
+            android:src="@drawable/main_menu_graph_logo_v3"/>
+
+        <ImageView
+
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10sp"
+            android:layout_marginTop="57dp"
+            android:background="@null"
+            android:src="@drawable/main_menu_calculator_logo_v1"/>
+
+        <ImageView
+            android:id="@+id/main_menu_switch"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10sp"
+            android:layout_marginTop="57dp"
+            android:background="@null"
+            android:src="@drawable/main_menu_switch_logo_v1"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_menu_row1"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10sp"
+            android:layout_marginTop="57dp"
+            android:background="@null"
+            android:src="@drawable/main_menu_notlist_logo_v1"/>
+
+        <ImageView
+
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10sp"
+            android:layout_marginTop="57dp"
+            android:background="@null"
+            android:src="@drawable/main_menu_alert_logo_v1"/>
+
+        <ImageView
+
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10sp"
+            android:layout_marginTop="57dp"
+            android:background="@null"
+            android:src="@drawable/main_menu_help_logo_v1"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
